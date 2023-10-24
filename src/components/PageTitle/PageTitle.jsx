@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
-import css from './PageTitle.module.css'
+// import css from './PageTitle.module.css'
+import { TitleText } from './PageTitle.styled';
 
 export const PageTitle = ({ text }) => {
-    return <h1 className={css.title}>{ text}</h1>
+    return <TitleText >{ text}</TitleText>
 }
 
 PageTitle.prototype = {

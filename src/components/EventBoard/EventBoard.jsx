@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
-import css from './EventBoard.module.css'
-import {Event} from 'components/Event/Event'
+// import css from './EventBoard.module.css'
+import { Event } from 'components/Event/Event'
+import { Container } from './EventBoard.styled';
 
 
 
 export const EventBoard = ({ events }) => {
-    return <div  className={css.eventBoard}>{events.map(event =><Event key={event.name} name={event.name} location={event.location} speaker={event.speaker} start={event.time.start} end={event.time.end} type={event.type} />)}</div>
+    return <Container  >{events.map(event =><Event key={event.name} name={event.name} location={event.location} speaker={event.speaker} start={event.time.start} end={event.time.end} type={event.type} />)}</Container>
 }
 
 EventBoard.prototype = {
