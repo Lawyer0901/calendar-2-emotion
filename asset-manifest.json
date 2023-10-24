@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/calendar-2-emotion/static/css/main.af88daf2.css",
-    "main.js": "/calendar-2-emotion/static/js/main.62014f21.js",
+    "main.css": "/calendar-2-emotion/static/css/main.adc1d35f.css",
+    "main.js": "/calendar-2-emotion/static/js/main.eaf29e44.js",
     "index.html": "/calendar-2-emotion/index.html",
-    "main.af88daf2.css.map": "/calendar-2-emotion/static/css/main.af88daf2.css.map",
-    "main.62014f21.js.map": "/calendar-2-emotion/static/js/main.62014f21.js.map"
+    "main.adc1d35f.css.map": "/calendar-2-emotion/static/css/main.adc1d35f.css.map",
+    "main.eaf29e44.js.map": "/calendar-2-emotion/static/js/main.eaf29e44.js.map"
   },
   "entrypoints": [
-    "static/css/main.af88daf2.css",
-    "static/js/main.62014f21.js"
+    "static/css/main.adc1d35f.css",
+    "static/js/main.eaf29e44.js"
   ]
 }
